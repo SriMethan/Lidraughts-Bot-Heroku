@@ -6,7 +6,7 @@ engine:                      # Engine settings.
   name: "scan"               # Binary name of the engine to use.
   engine_arguement: "hub"
   protocol: "hub"            # "hub", "dxp", "cb" (checkerboard) or "strategy"
-  ponder: false               # Think on opponent's time.
+  ponder: true               # Think on opponent's time.
 # engine_options:            # Any custom command line params to pass to the engine.
 #   cpuct: 3.1
   homemade_options:
@@ -64,5 +64,5 @@ challenge:                   # Incoming challenges.
 #   - correspondence
   modes:                     # Game modes to accept.
     - casual                 # Unrated games.
-    - rated                  # Rated games - must comment if the engine doesn't try to win.
+#   - rated                  # Rated games - must comment if the engine doesn't try to win.
 
