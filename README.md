@@ -31,7 +31,7 @@ Engine communication code taken from https://github.com/AttackingOrDefending/lid
 You're now connected to lishogi and awaiting challenges! Your bot is up and ready!
 
 # Copying
-For Copying the heroku codes see [here](https://github.com/SriMethan/Lidraughts-Bot-Heroku/blob/master/copying.txt)
+For Copying the heroku codes see [here](https://github.com/SriMethan/Lidraughts-Bot-Heroku/blob/main/Copying.txt)
 
 ## Acknowledgements
 This code exsit because of [Attackingordefending's bot client](https://github.com/Attackingordefending/lidraughts-bot) 
