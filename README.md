@@ -1,6 +1,6 @@
 # lidraughts-bot
 
-The code template to make a Lishogi Bot and deploy it to heroku server easily.
+The code template to make a Lidraughts Bot and deploy it to heroku server easily.
 This is the code of [@libot](https://lidraughts.org/@/libot) and similar heroku run bots in [lidraughts.org](https://lidraughts.org)
 
 Engine communication code taken from https://github.com/AttackingOrDefending/lidraughts-bot by [AttackingOrDefending](https://github.com/AttackingOrDefending)
@@ -28,7 +28,7 @@ Engine communication code taken from https://github.com/AttackingOrDefending/lid
 - Once it has been deployed, go to `Resources` tab on heroku and enable `worker (bash startbot.sh)` dynos. (Do note that if you don't see any dynos in the `Resources` tab, then you must wait for about 5 minutes and then refresh your heroku page.)
 - Finally go to your `Settings` tab and then under `Config Vars` click on `Reveal Config Vars` and then in the place of `key` type in `LIDRAUGHTS_BOT_TOKEN` and in the place of `value` add your Lichess Bot Token.
 
-You're now connected to lishogi and awaiting challenges! Your bot is up and ready!
+You're now connected to lidraughts and awaiting challenges! Your bot is up and ready!
 
 # Copying
 For Copying the heroku codes see [here](https://github.com/SriMethan/Lidraughts-Bot-Heroku/blob/main/Copying.txt)
