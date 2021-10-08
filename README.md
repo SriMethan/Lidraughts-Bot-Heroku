@@ -5,7 +5,7 @@ This is the code of [@libot](https://lidraughts.org/@/libot) and similar heroku 
 
 Engine communication code taken from https://github.com/AttackingOrDefending/lidraughts-bot by [AttackingOrDefending](https://github.com/AttackingOrDefending)
 
-### Shogi Engine
+### Draughts Engine
 
 - [Scan 3.1(dev)](https://github.com/rhalbersma/scan)
 
