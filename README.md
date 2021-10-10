@@ -31,6 +31,11 @@ Engine communication code taken from https://github.com/AttackingOrDefending/lid
  
 
 You're now connected to lidraughts and awaiting challenges! Your bot is up and ready!
+### Important Ways to handle the bot 
+When you dont monitor the bot turn of the dynos or the bot will crash and when you closing the computer but the bot is on turn off dynos then the bot would not loose the conection to heroku... If there is this error 2021-10-08T06:50:53.054476+00:00 heroku[worker.1]: Process running mem=688M(133.6%)
+2021-10-08T06:50:53.055929+00:00 heroku[worker.1]: Error R14 (Memory quota exceeded)
+Then you have to restart the dynos if there is same errors after dynos then you have to redelte the repo and fork it again
+The bot will play 1 game at a time if two games tehn bot have chances to crash so be carefull . 
 
 # Copying
 For Copying the heroku codes see [here](https://github.com/SriMethan/Lidraughts-Bot-Heroku/blob/main/Copying.txt)
