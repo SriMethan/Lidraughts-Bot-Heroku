@@ -28,7 +28,7 @@ class Conversation:
             name = game.me.name
             self.send_reply(line, "{} running {} (lidraughts-bot v{})".format(name, self.engine.name(), self.version))
         elif cmd == "howto":
-            self.send_reply(line, "How to run: https://github.com/SriMethan/Lidraughts-Bot-Heroku'")
+            self.send_reply(line, "How to run your own bot: Check Out 'https://github.com/SriMethan/Lidraughts-Bot-Heroku' and 'https://github.com/AttackingOrDefending/lidraughts-bot'")
         elif cmd == "eval" and line.room == "spectator":
             stats = self.engine.get_stats()
             self.send_reply(line, ", ".join(stats))
