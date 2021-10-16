@@ -3,7 +3,7 @@
 The code template to make a Lidraughts Bot and deploy it to heroku server easily.
 This is the code of [@libot](https://lidraughts.org/@/libot) and similar heroku run bots in [lidraughts.org](https://lidraughts.org)
 
-Engine communication code taken from https://github.com/AttackingOrDefending/lidraughts-bot by [AttackingOrDefending](https://github.com/AttackingOrDefending)
+Engine communication code taken from  [AttackingOrDefending lidraughts bot repo](https://github.com/AttackingOrDefending/lidraughts-bot)
 
 ### Draughts Engine
 
