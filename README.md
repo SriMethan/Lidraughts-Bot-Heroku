@@ -33,7 +33,7 @@ Engine communication code taken from  [AttackingOrDefending lidraughts bot repo]
 You're now connected to lidraughts and awaiting challenges! Your bot is up and ready!
 
 # Copying
-For Copying the heroku codes see [here](https://github.com/SriMethan/Lidraughts-Bot-Heroku/blob/main/Copying.txt)
+For Copying the heroku codes see [Copying.txt](https://github.com/SriMethan/Lidraughts-Bot-Heroku/blob/main/Copying.txt)
 
 ## Acknowledgements
 This code exsit because of [Attackingordefending's bot client](https://github.com/Attackingordefending/lidraughts-bot) 
