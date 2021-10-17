@@ -410,7 +410,7 @@ def start_pondering(engine, board, game, can_ponder, best_move, start_time, move
     for move in best_move.move:
         ponder_board.push_move(move)
     for move in best_move.ponder:
-        best_move = engine.search_with_ponder(board, wtime, btime, winc, binc, True, False)
+       best_move = engine.search_with_ponder(board, wtime, btime, winc, binc, True, False)
 ponder_results[game.id] = best_move
         
     wtime = game.state["wtime"]
